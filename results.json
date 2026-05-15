@@ -1,0 +1,432 @@
+[
+    {
+        "name": "Bugcrowd Public Programs",
+        "platform": "Bugcrowd",
+        "url": "https://bugcrowd.com/programs",
+        "scope": "*",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Govtech Vulnerability Disclosure Programme Policy",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy",
+        "scope": "govtech-vulnerability-disclosure-programme-policy",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Dojo",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/dojo",
+        "scope": "dojo",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Gojek Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/gojek-bug-bounty-program",
+        "scope": "gojek-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Goto Financial Public Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/goto-financial-public-bounty-program",
+        "scope": "goto-financial-public-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Harman International Web Applications",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/harman-international-web-applications",
+        "scope": "harman-international-web-applications",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Doctolib Public Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
+        "scope": "doctolib-public-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Bookbeat",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/bookbeat",
+        "scope": "bookbeat",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Bug Bounty Sncf Connect 1",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/bug-bounty-sncf-connect-1",
+        "scope": "bug-bounty-sncf-connect-1",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Datadome Bot Bounty",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/datadome-bot-bounty",
+        "scope": "datadome-bot-bounty",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Moneybox Bug Bounty",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/moneybox-bug-bounty",
+        "scope": "moneybox-bug-bounty",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Contentsquare Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/contentsquare-bug-bounty-program",
+        "scope": "contentsquare-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Telenor Sweden Public Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/telenor-sweden-public-bug-bounty-program",
+        "scope": "telenor-sweden-public-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Teamviewer Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/teamviewer-bounty-program",
+        "scope": "teamviewer-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Mon Espace Sante Mes",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/mon-espace-sante-mes",
+        "scope": "mon-espace-sante-mes",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Dossier Medical Partage Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/dossier-medical-partage-program",
+        "scope": "dossier-medical-partage-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Komoju Public Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/komoju-public-bug-bounty-program",
+        "scope": "komoju-public-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Decathlon",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/decathlon",
+        "scope": "decathlon",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Vfs Global Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program",
+        "scope": "vfs-global-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Coindcx Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/coindcx-bug-bounty-program",
+        "scope": "coindcx-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Okto Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/okto-bug-bounty-program",
+        "scope": "okto-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Bitoasis Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/bitoasis-bug-bounty-program",
+        "scope": "bitoasis-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Pine Labs Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/pine-labs-bug-bounty-program",
+        "scope": "pine-labs-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Thuringer Aufbaubank Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/thuringer-aufbaubank-bug-bounty-program",
+        "scope": "thuringer-aufbaubank-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Fdj United Online Betting Gaming Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/fdj-united-online-betting-gaming-bug-bounty-program",
+        "scope": "fdj-united-online-betting-gaming-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Datadome Bug Bounty",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/datadome-bug-bounty",
+        "scope": "datadome-bug-bounty",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Sante Publique France Bugbounty Public Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/sante-publique-france-bugbounty-public-program",
+        "scope": "sante-publique-france-bugbounty-public-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Swiss Post Evoting",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/swiss-post-evoting",
+        "scope": "swiss-post-evoting",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Louis Vuitton Malletier Public Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/louis-vuitton-malletier-public-bug-bounty-program",
+        "scope": "louis-vuitton-malletier-public-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Harman International Public Bug Bounty",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/harman-international-public-bug-bounty",
+        "scope": "harman-international-public-bug-bounty",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Memento Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/memento-bug-bounty-program",
+        "scope": "memento-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Swiss Post",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/swiss-post",
+        "scope": "swiss-post",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Cybermalveillance Gouv Fr Sensibilization Prevention And Support In Terms Of Cybersecurity",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+        "scope": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Expressvpn Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/expressvpn-bug-bounty-program",
+        "scope": "expressvpn-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Digital Flanders Vulnerability Disclosure Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/digital-flanders-vulnerability-disclosure-program",
+        "scope": "digital-flanders-vulnerability-disclosure-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Xelians Blackbox Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/xelians-blackbox-program",
+        "scope": "xelians-blackbox-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Grw Trading Fze Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/grw-trading-fze-bug-bounty-program",
+        "scope": "grw-trading-fze-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Vidaxl Services Open Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/vidaxl-services-open-bug-bounty-program",
+        "scope": "vidaxl-services-open-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Cryptobox Bug Bounty",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/cryptobox-bug-bounty",
+        "scope": "cryptobox-bug-bounty",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Bug Bounty Program Blablacar",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/bug-bounty-program-blablacar",
+        "scope": "bug-bounty-program-blablacar",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Vincisa Public Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/vincisa-public-program",
+        "scope": "vincisa-public-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Ezviz Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/ezviz-bug-bounty-program",
+        "scope": "ezviz-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    },
+    {
+        "name": "Mediamarktsaturn Bug Bounty Program",
+        "platform": "YesWeHack",
+        "url": "https://yeswehack.com/programs/mediamarktsaturn-bug-bounty-program",
+        "scope": "mediamarktsaturn-bug-bounty-program",
+        "mobile": false,
+        "graphql": false,
+        "waf": false,
+        "severity": "unknown"
+    }
+]
