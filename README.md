@@ -1,357 +1,166 @@
 # VulnScope
 
-VulnScope is a Python-based cybersecurity CLI tool that aggregates public bug bounty and vulnerability disclosure programs from multiple platforms.
+VulnScope is a Python-based CLI tool for aggregating, filtering, classifying, and exporting Vulnerability Disclosure Program (VDP) and bug bounty targets from multiple platforms.
 
-The project focuses on:
-- public program discovery
-- target aggregation
-- operator filtering
-- JSON export workflows
-- modular source ingestion
+The project focuses on reconnaissance workflow automation and structured target discovery through a modular architecture.
 
-Current supported platforms:
-- YesWeHack
-- Bugcrowd
+---
 
-Future planned integrations:
+## Features
+
+- Multi-platform bug bounty aggregation
+- VDP target collection
+- Difficulty-based filtering
+- Platform-specific filtering
+- Automated target classification
+- Recon scoring system
+- JSON and Markdown export support
+- Modular source integration
+- CLI-driven workflow
+
+---
+
+## Supported Platforms
+
 - HackerOne
+- Bugcrowd
+- YesWeHack
+
+Planned / experimental integrations:
+
 - Intigriti
-- custom recon enrichment
+- Federacy
+- OpenBugBounty
 
 ---
 
-# Features
+## Screenshots
 
-- Multi-source bug bounty aggregation
-- Unified normalized program schema
-- CLI filtering
-- Difficulty classification
-- JSON export support
-- Rich terminal table output
-- Modular architecture
-- Extensible source system
+### Main Interface
+
+![Main Interface](screenshots/main-output.png)
 
 ---
 
-# Screenshots To Add
+### Results Output
 
-Create a folder:
+![Results Output](screenshots/results.png)
 
-```text
-screenshots/
+---
+
+### Difficulty Filtering
+
+![Difficulty Filtering](screenshots/difficulty-filter.png)
+
+---
+
+### Platform Filtering
+
+![Platform Filtering](screenshots/platform-filter.png)
+
+---
+
+### Export Output
+
+![Export Output](screenshots/export-output.png)
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/ultrew/vulnscope.git
+cd vulnscope
 ```
 
-Add these screenshots:
+### Create Virtual Environment
 
-## 1. Main Program Output
-
-Filename:
-
-```text
-screenshots/main-output.png
+```bash
+python -m venv myenv
+source myenv/bin/activate
 ```
 
-Take screenshot of:
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+### Start VulnScope
 
 ```bash
 python main.py
 ```
 
-Include:
-- table output
-- program count
-- platforms
-
----
-
-## 2. Platform Filtering
-
-Filename:
-
-```text
-screenshots/platform-filter.png
-```
-
-Take screenshot of:
+### Example Workflow
 
 ```bash
-python main.py --platform yeswehack
+python main.py scan
 ```
 
 ---
 
-## 3. Difficulty Filtering
-
-Filename:
-
-```text
-screenshots/difficulty-filter.png
-```
-
-Take screenshot of:
-
-```bash
-python main.py --difficulty beginner
-```
-
----
-
-## 4. JSON Export
-
-Filename:
-
-```text
-screenshots/export-output.png
-```
-
-Take screenshot of:
-
-```bash
-python main.py --export
-```
-
-Also show:
-
-```bash
-cat results.json
-```
-
----
-
-# Project Structure
+## Project Structure
 
 ```text
 vulnscope/
-├── cli/
-│   ├── __init__.py
-│   └── commands.py
-│
-├── core/
-│   ├── __init__.py
-│   ├── classifier.py
-│   ├── scraper.py
-│   └── scoring.py
-│
-├── output/
-│   ├── __init__.py
-│   └── json_export.py
-│
-├── sources/
-│   ├── __init__.py
-│   ├── bugcrowd.py
-│   ├── hackerone.py
-│   └── yeswehack.py
-│
-├── screenshots/
+├── cli/           # CLI command handling
+├── core/          # Classification, scoring, recon logic
+├── db/            # Database models
+├── output/        # Export handlers
+├── screenshots/   # README assets
+├── sources/       # Platform integrations
 ├── main.py
-├── results.json
 └── README.md
 ```
 
 ---
 
-# Installation
+## Output Formats
 
-Clone repository:
+VulnScope currently supports:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/vulnscope.git
-```
+- JSON export
+- Markdown export
 
-Move into project:
+Generated results can be used for:
 
-```bash
-cd vulnscope
-```
-
-Create virtual environment:
-
-```bash
-python -m venv myenv
-```
-
-Activate virtual environment:
-
-Linux:
-
-```bash
-source myenv/bin/activate
-```
-
-Windows:
-
-```powershell
-myenv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install typer rich requests beautifulsoup4
-```
+- Recon workflows
+- Target tracking
+- Bug bounty organization
+- Research documentation
 
 ---
 
-# Usage
+## Design Goals
 
-## Run All Sources
-
-```bash
-python main.py
-```
-
----
-
-## Filter By Platform
-
-```bash
-python main.py --platform yeswehack
-```
-
-```bash
-python main.py --platform bugcrowd
-```
+- Lightweight architecture
+- Modular source integrations
+- Structured recon workflows
+- Extensible export system
+- Maintainable CLI design
 
 ---
 
-## Filter By Difficulty
+## Legal Disclaimer
 
-```bash
-python main.py --difficulty beginner
-```
+This project is intended for:
 
----
+- Authorized security research
+- Educational use
+- Public bug bounty programs
+- Vulnerability Disclosure Programs (VDPs)
 
-## Export Results
-
-```bash
-python main.py --export
-```
-
-Generated file:
-
-```text
-results.json
-```
+Users are responsible for complying with applicable laws and platform policies.
 
 ---
 
-# Example JSON Schema
-
-```json
-{
-    "name": "Example Program",
-    "platform": "YesWeHack",
-    "url": "https://yeswehack.com/programs/example",
-    "scope": "example-scope",
-    "mobile": false,
-    "graphql": false,
-    "waf": false,
-    "severity": "unknown"
-}
-```
-
----
-
-# Architecture
-
-## Source Layer
-
-Responsible for:
-- fetching platform data
-- extracting program information
-- normalizing records
-
-Files:
-
-```text
-sources/
-```
-
----
-
-## Core Layer
-
-Responsible for:
-- aggregation
-- deduplication
-- classification
-- scoring
-
-Files:
-
-```text
-core/
-```
-
----
-
-## CLI Layer
-
-Responsible for:
-- user interaction
-- filtering
-- rendering
-- operator workflow
-
-Files:
-
-```text
-cli/
-```
-
----
-
-## Output Layer
-
-Responsible for:
-- JSON exports
-- automation compatibility
-- downstream tooling support
-
-Files:
-
-```text
-output/
-```
-
----
-
-# Current Limitations
-
-- HackerOne scraping currently unstable due to anti-bot protections
-- Difficulty scoring system is still basic
-- No async ingestion yet
-- No recon enrichment yet
-- No live scope validation yet
-
----
-
-# Future Roadmap
-
-Planned improvements:
-
-- Improved Bugcrowd extraction
-- Stable HackerOne ingestion
-- Intigriti integration
-- Scope enrichment
-- Wildcard detection
-- GraphQL detection
-- Live target validation
-- Async fetching
-- CSV export
-- Recon integrations
-- Subdomain enrichment
-
----
-
-# Resume Description
-
-Developed VulnScope, a modular Python CLI tool for aggregating and filtering public bug bounty programs across multiple platforms. Implemented modular source ingestion, structured normalization, JSON export functionality, and operator-focused filtering workflows.
-
----
-
-# License
+## License
 
 MIT License
-
